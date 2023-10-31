@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="transactionTypes">
+        <item>Refreshments</item>
+        <item>Electronics</item>
+        <item>Transportation</item>
+        <item>Utility Bills</item>
+        <item>Stationery items</item>
+        <item>Entertainment</item>
+        <item>Groceries</item>
+        <item>Medical Check-up</item>
+    </string-array>
+</resources>

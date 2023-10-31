@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height= "match_parent"
+    tools:context=".homeFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textStyle="bold|italic"
+            android:textColor="@color/plt2"
+            android:text="@string/set_up_your_budget"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/enterbudget"
+            android:textColor="@color/plt2"
+            android:hint="10"
+            android:textColorHint="@color/plt2"
+            android:textSize="30sp"
+            android:textStyle="bold|italic"
+            android:drawablePadding="10sp"
+            android:drawableStart="@drawable/baseline_monetization_on_24"/>
+        <Button
+            android:id="@+id/addbudget"
+            android:layout_marginTop="20dp"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:textStyle="italic|bold"
+            android:backgroundTint="@color/teal_200"
+            android:textColor="@color/plt5"
+            android:text="Set Budget"/>
+    </LinearLayout>
+</FrameLayout>
