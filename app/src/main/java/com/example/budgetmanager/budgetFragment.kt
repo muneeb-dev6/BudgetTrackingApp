@@ -60,8 +60,6 @@ class budgetFragment : Fragment() {
                 val budgetDocRef = FirebaseFirestore.getInstance().collection("BUDGETS").document(user!!.uid)
                 budgetDocRef.set(budgetModel)
                 Toast.makeText(requireActivity(),"Budget amount successfully updated.",Toast.LENGTH_SHORT).show()
-                val fragmentManager = supportFragmentManager
-                val transaction = fra
             }
            else{
                Toast.makeText(requireActivity(),"Budget value is not valid!",Toast.LENGTH_SHORT).show()
